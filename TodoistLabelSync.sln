@@ -7,19 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoistLabelSyncConsole", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoistLabelSync", "TodoistLabelSync\TodoistLabelSync.csproj", "{F70B39D9-5EFA-472A-9891-F9E41983A12B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{08A7F590-0E39-4DEA-B4BA-E0E9D1ECC931}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://drybones.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = TodoistLabelSyncConsole\\TodoistLabelSyncConsole.csproj
-		SccProjectName1 = TodoistLabelSyncConsole
-		SccLocalPath1 = TodoistLabelSyncConsole
-		SccProjectUniqueName2 = TodoistLabelSync\\TodoistLabelSync.csproj
-		SccProjectName2 = TodoistLabelSync
-		SccLocalPath2 = TodoistLabelSync
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
